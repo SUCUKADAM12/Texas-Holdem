@@ -156,10 +156,10 @@ def start():
     # Cards are 22 x 18 pixels, ratio is 11/9; the area for the cards is 234 x 110.
     state = 1
     #   1 : mainmenu, 2 : entering details to join, 3 : poker table, 4 : host details, 5 : hosting and joined as admin (can set anyones chip count in terminal)
-    hostB = Button(canvas, newpath("\\assets\\sprtsheet.png"), 1)
-    joinB = Button(canvas, newpath("\\assets\\sprtsheet.png"), 1)
-    mainmenu = pyg.image.load(newpath("\\assets\\Mainmenu.png"))
-    Chip = Chips(canvas, newpath("\\assets\\chips.png"), 2)
+    hostB = Button(canvas, newpath("\\Assets\\sprtsheet.png"), 1)
+    joinB = Button(canvas, newpath("\\Assets\\sprtsheet.png"), 1)
+    mainmenu = pyg.image.load(newpath("\\Assets\\Mainmenu.png"))
+    Chip = Chips(canvas, newpath("\\Assets\\chips.png"), 2)
     textbox = textinpbox(canvas, 28, [(0, 212, 56), (153, 3, 16)], 2)
     while run:
         for event in pyg.event.get():
