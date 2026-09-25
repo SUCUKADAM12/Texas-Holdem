@@ -1,0 +1,4 @@
+startupchips:1000
+gametype:txh
+asignedchips:1 5 10 50 100 500 1000 5000
+timer:20
